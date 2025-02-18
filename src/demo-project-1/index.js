@@ -1,2 +1,2 @@
-const message = 'I am project #1'
-console.log(message)
+const message = 'I am project #1';
+console.log(message);
