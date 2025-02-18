@@ -1,0 +1,9 @@
+{
+  "name": "monorepo-with-pre-commit-git-hook",
+  "version": "1.0.0",
+  "main": "index.js",
+  "workspaces": ["src/*"],
+  "author": "eduard mavliutov",
+  "license": "ISC",
+  "description": ""
+}
