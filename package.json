@@ -5,9 +5,15 @@
   "workspaces": [
     "src/*"
   ],
+  "scripts": {
+    "prepare": "husky",
+    "clean": "bash -c \"rm -rf node_modules && rm -rf ./src/*/node_modules\"",
+    "reinstall": "npm run clean && npm install"
+  },
   "devDependencies": {
     "eslint": "8.52.0",
     "eslint-config-airbnb-base": "15.0.0",
+    "husky": "^9.1.7",
     "lint-staged": "15.4.3"
   },
   "author": "eduard mavliutov",
